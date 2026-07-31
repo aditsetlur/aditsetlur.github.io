@@ -1,0 +1,53 @@
+/* General reset and font styling for the whole page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #333333;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Header styling */
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+}
+
+/* Card container for our interactive elements */
+.card {
+    background-color: #ffffff;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Output message styling */
+#outputMessage {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #27ae60;
+}
